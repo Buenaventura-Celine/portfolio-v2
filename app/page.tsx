@@ -1,3 +1,15 @@
+import Nav from "@/components/Nav";
+
 export default function Home() {
-  return <main className="mx-auto max-w-[1060px] px-7 py-24">Portfolio v2 — scaffold OK</main>;
+  return (
+    <>
+      <Nav />
+      <main>
+        <header id="top" />
+        <section id="about" />
+        <section id="projects" />
+        <section id="blog" />
+      </main>
+    </>
+  );
 }
