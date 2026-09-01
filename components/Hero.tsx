@@ -98,8 +98,7 @@ export default function Hero() {
 
         {/* Framed photo container */}
         <div
-          className="relative w-[250px] h-[300px] rounded-[28px] border-[3px] border-ink overflow-hidden transition-transform duration-[250ms] ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:rotate-0 hover:scale-[1.04]"
-          style={{ transform: "rotate(-2deg)" }}
+          className="relative w-[250px] h-[300px] rounded-[28px] border-[3px] border-ink overflow-hidden -rotate-2 transition-transform duration-[250ms] ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:rotate-0 hover:scale-[1.04]"
         >
           <Image
             src="/images/hero.png"
@@ -113,11 +112,10 @@ export default function Hero() {
 
         {/* Sticker — mockup line 52 */}
         <div
-          className="absolute font-mono text-[12px] bg-white border-[1.5px] border-ink rounded-full px-[12px] py-[5px] shadow-[2px_2px_0_#1a1a1a] transition-transform duration-200 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:rotate-[-4deg] hover:scale-[1.1]"
+          className="absolute font-mono text-[12px] bg-white border-[1.5px] border-ink rounded-full px-[12px] py-[5px] rotate-[6deg] shadow-[2px_2px_0_#1a1a1a] transition-transform duration-200 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:rotate-[-4deg] hover:scale-[1.1]"
           style={{
             top: "-16px",
             right: "-22px",
-            transform: "rotate(6deg)",
           }}
         >
           give me a Coke and we&apos;re even ✳
