@@ -1,11 +1,12 @@
 import Nav from "@/components/Nav";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     <>
       <Nav />
       <main>
-        <header id="top" />
+        <Hero />
         <section id="about" />
         <section id="projects" />
         <section id="blog" />
