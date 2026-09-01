@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts — mapped from next/font CSS variables set on <html> */
+  --font-sans: var(--font-outfit), sans-serif;
+  --font-mono: var(--font-jetbrains), monospace;
+
+  /* Core colors */
+  --color-ink: #1a1a1a;
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-accent: #2b9fe0;
+  --color-accent-deep: #1d7fbd;
+
+  /* Sky / chip */
+  --color-sky: #e3f2fc;
+  --color-sky-soft: #d3ecfb;
+  --color-sky-chip: #e0f0fb;
+
+  /* Muted text */
+  --color-muted: #6b6b66;
+  --color-muted-2: #52524d;
+  --color-muted-3: #98988f;
+  --color-body-text: #333330;
+  --color-body-2: #4c4c46;
+
+  /* Lines / borders */
+  --color-line: #e5e5e2;
+  --color-line-2: #ececea;
+  --color-line-dash: #e3e3e0;
+  --color-border-soft: #d8d8d4;
+
+  /* Footer */
+  --color-footer-bg: #1a1a1a;
+  --color-footer-border: #2c2c2c;
+  --color-footer-muted: #787872;
+  --color-footer-link: #8fd0f5;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fafafa;
+  color: #1a1a1a;
+  font-family: var(--font-outfit), sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+::selection {
+  background: #d3ecfb;
+}
+
+/* Keyframes */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes skmarquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
