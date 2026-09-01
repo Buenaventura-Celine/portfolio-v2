@@ -4,6 +4,49 @@ export type Experience = { date: string; title: string; org: string; note?: stri
 export type Education = { date: string; title: string; org: string };
 export type Skill = { name: string; icon: string }; // icon = simpleicons cdn url
 
+// Bio paragraphs — verbatim from mockup lines 61–63
+export const bio: string[] = [
+  "Software Engineer with 4 years of experience delivering end-to-end software solutions across frontend, backend, and mobile platforms. Skilled in building scalable applications using Flutter, React, Next.js, NestJS, PostgreSQL, and Google Cloud Platform, with hands-on experience in application architecture, API development, CI/CD, observability, and production support.",
+  "Experienced in modernizing legacy systems, optimizing application performance, and collaborating with cross-functional teams to deliver secure, maintainable, and business-driven software in Agile environments.",
+  "Outside tech, I play badminton and chess, read books, ride my motorcycle, and climb mountains.",
+];
+
+// Tech stack — verbatim from mockup lines 263–267
+export const stack: Skill[] = (
+  [
+    ["Flutter", "flutter"],
+    ["Dart", "dart"],
+    ["TypeScript", "typescript"],
+    ["JavaScript", "javascript"],
+    ["React", "react"],
+    ["Next.js", "nextdotjs"],
+    ["PostgreSQL", "postgresql"],
+    ["Google Cloud", "googlecloud"],
+    ["Docker", "docker"],
+    ["Firebase", "firebase"],
+    ["Claude", "claude"],
+    ["Sentry", "sentry"],
+    ["Git", "git"],
+    ["GitHub", "github"],
+    ["Figma", "figma"],
+    ["Jira", "jira"],
+  ] as [string, string][]
+).map(([name, slug]) => ({ name, icon: `https://cdn.simpleicons.org/${slug}/4a8798` }));
+
+// Experience — verbatim from mockup lines 277–281
+export const experience: Experience[] = [
+  { date: "Apr 2026 — now", title: "Senior Software Engineer", org: "Wizy Software Labs Inc." },
+  { date: "Aug 2023 — Apr 2026", title: "Mid Software Engineer", org: "Wizy Software Labs Inc." },
+  { date: "Sep 2022 — Aug 2023", title: "Junior Software Engineer", org: "Wizy Software Labs Inc." },
+];
+
+// Education — verbatim from mockup lines 282–286
+export const education: Education[] = [
+  { date: "Jun 2023", title: "Google Associate Cloud Engineer", org: "Certification" },
+  { date: "Nov 2022", title: "BS Computer Engineering · Cum Laude", org: "Polytechnic University of the Philippines" },
+  { date: "2020 — now", title: "ICpEP — Member", org: "Institute of Computer Engineers of the Philippines" },
+];
+
 // Socials verbatim from mockup lines 271–276
 export const socials: Social[] = [
   {
