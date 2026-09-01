@@ -21,7 +21,7 @@ export default function SocialIcons({ items, variant }: SocialIconsProps) {
             rel="noopener noreferrer"
             title={item.label}
             aria-label={item.label}
-            className="flex items-center justify-center w-9 h-9 text-muted rounded-full transition-all duration-[180ms] ease-linear hover:text-accent hover:bg-sky hover:-translate-y-0.5"
+            className="flex items-center justify-center w-9 h-9 text-muted rounded-full transition-all duration-[180ms] ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:text-accent hover:bg-sky hover:-translate-y-0.5"
           >
             <svg
               viewBox="0 0 24 24"

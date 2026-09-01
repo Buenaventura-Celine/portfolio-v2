@@ -49,7 +49,7 @@ export default function Nav() {
             href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[14px] font-semibold text-[#fafafa] bg-ink px-[18px] py-[9px] rounded-full transition-all duration-200 ease-in-out hover:bg-accent hover:text-[#fafafa] hover:-translate-y-px"
+            className="text-[14px] font-semibold text-[#fafafa] bg-ink px-[18px] py-[9px] rounded-full transition-all duration-200 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:bg-accent hover:text-[#fafafa] hover:-translate-y-px"
           >
             Resume ↓
           </a>
