@@ -37,26 +37,32 @@
   --color-footer-link: #8fd0f5;
 }
 
-/* Base styles */
-html {
-  scroll-behavior: smooth;
-}
+/* Base styles — must be in @layer base so Tailwind utility classes can override them */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-body {
-  margin: 0;
-  background: #fafafa;
-  color: #1a1a1a;
-  font-family: var(--font-outfit), sans-serif;
-  line-height: 1.6;
-}
+  body {
+    margin: 0;
+    background: #fafafa;
+    color: #1a1a1a;
+    font-family: var(--font-outfit), sans-serif;
+    line-height: 1.6;
+  }
 
-a {
-  color: #1a1a1a;
-  text-decoration: none;
-}
+  a {
+    color: #1a1a1a;
+    text-decoration: none;
+  }
 
-::selection {
-  background: #d3ecfb;
+  a:hover {
+    color: #2b9fe0;
+  }
+
+  ::selection {
+    background: #d3ecfb;
+  }
 }
 
 /* Keyframes */
