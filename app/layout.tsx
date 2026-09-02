@@ -19,7 +19,7 @@ const mono = JetBrains_Mono({
   display: "swap",
 });
 
-const TITLE = "Celine Joie Buenaventura — Software Engineer";
+const TITLE = "Celine | Software Engineer";
 const DESCRIPTION =
   "Full-stack engineer at Wizy Software Labs — Flutter, React, and cloud. Four years of shipping software end to end.";
 
