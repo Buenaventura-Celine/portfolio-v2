@@ -23,7 +23,7 @@ export const projects: Project[] = [
     name: "San Pedro Website Revamp",
     kind: "gov website",
     desc: "A modern redesign of the City of San Pedro, Laguna government website — improving how residents find services and information online.",
-    img: "/images/portfolio/placeholder.svg", // TODO: real screenshot
+    img: "/images/portfolio/san-pedro.png",
     tags: [tag("Web"), tag("UI/UX")],
     link: FALLBACK_LINK,
   },
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     name: "Flowers by Jan",
     kind: "shop website",
     desc: "A website for a flower shop — browsing arrangements and placing orders, wrapped in a look as fresh as the bouquets.",
-    img: "/images/portfolio/placeholder.svg", // TODO: real screenshot
+    img: "/images/portfolio/flowers-by-jan.png",
     tags: [tag("Web")],
     link: FALLBACK_LINK,
   },
