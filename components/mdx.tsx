@@ -54,6 +54,32 @@ export function GImg({ src, alt, span, h = "220px" }: GImgProps) {
   );
 }
 
+export function WIPBox() {
+  return (
+    <div className="border-[1.5px] border-dashed border-border-soft rounded-[16px] px-[32px] py-[40px] text-center mt-[20px] mb-[40px]">
+      <span className="font-mono text-[13px] text-muted">
+        // work in progress — this story is still being written
+      </span>
+    </div>
+  );
+}
+
+export function PostTags({ items }: { items?: string[] }) {
+  if (!items || !Array.isArray(items)) return null;
+  return (
+    <div className="flex flex-wrap gap-[8px]">
+      {items.map((t) => (
+        <span
+          key={t}
+          className="font-mono text-[11.5px] px-[10px] py-[4px] rounded-full bg-sky-chip text-accent-deep"
+        >
+          {t}
+        </span>
+      ))}
+    </div>
+  );
+}
+
 /* ---------- MDX component map ---------- */
 
 export const mdxComponents: MDXComponents = {
@@ -90,4 +116,6 @@ export const mdxComponents: MDXComponents = {
   Figure,
   Gallery,
   GImg,
+  WIPBox,
+  PostTags,
 };
