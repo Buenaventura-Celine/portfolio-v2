@@ -62,7 +62,7 @@ export default function Hero() {
           {/* "See my work" primary pill */}
           <a
             href="#projects"
-            className="text-[15px] font-semibold text-[#fafafa] bg-accent px-[24px] py-[12px] rounded-full transition-all duration-200 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:-translate-y-0.5 hover:shadow-[0_6px_18px_rgba(43,159,224,0.4)]"
+            className="text-[15px] font-semibold text-[#fafafa] bg-accent px-[24px] py-[12px] rounded-full translate-y-0 transition-all duration-200 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:-translate-y-[2px] hover:shadow-[0_6px_18px_rgba(43,159,224,0.4)]"
           >
             See my work
           </a>
@@ -70,7 +70,7 @@ export default function Hero() {
           {/* "Ito ang kwento ko" outlined pill */}
           <a
             href="#blog"
-            className="text-[15px] font-semibold px-[24px] py-[12px] rounded-full border-[1.5px] border-border-soft transition-all duration-200 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:border-accent hover:bg-sky hover:text-accent-deep hover:-translate-y-0.5"
+            className="text-[15px] font-semibold px-[24px] py-[12px] rounded-full border-[1.5px] border-border-soft translate-y-0 transition-all duration-200 ease-[cubic-bezier(0.25,0.1,0.25,1)] hover:border-accent hover:bg-sky hover:text-accent-deep hover:-translate-y-[2px]"
           >
             Ito ang kwento ko
           </a>

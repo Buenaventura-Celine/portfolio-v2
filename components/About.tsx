@@ -37,7 +37,7 @@ export default function About() {
                 "border-[1.5px] border-ink rounded-full px-[22px] py-[11px]",
                 "transition-all duration-200 ease-[cubic-bezier(0.25,0.1,0.25,1)]",
                 "-translate-y-0",
-                "hover:bg-ink hover:text-[#fafafa] hover:-translate-y-0.5 hover:shadow-[3px_3px_0_#2b9fe0]",
+                "hover:bg-ink hover:text-[#fafafa] hover:-translate-y-[2px] hover:shadow-[3px_3px_0_#2b9fe0]",
               ].join(" ")}
             >
               View resume{" "}

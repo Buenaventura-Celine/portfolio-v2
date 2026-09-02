@@ -68,7 +68,7 @@ export default async function Image() {
             letterSpacing: "-0.01em",
           }}
         >
-          Software Engineer · San Pedro, Laguna 🇵🇭
+          Software Engineer · San Pedro, Laguna, Philippines
         </div>
 
         {/* Bottom accent line */}
