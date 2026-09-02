@@ -58,7 +58,7 @@ export function WIPBox() {
   return (
     <div className="border-[1.5px] border-dashed border-border-soft rounded-[16px] px-[32px] py-[40px] text-center mt-[20px] mb-[40px]">
       <span className="font-mono text-[13px] text-muted">
-        // work in progress — this story is still being written
+        {'// work in progress — this story is still being written'}
       </span>
     </div>
   );

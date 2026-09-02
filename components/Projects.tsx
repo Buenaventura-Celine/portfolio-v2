@@ -42,6 +42,7 @@ export default function Projects() {
             >
               {/* Image */}
               <div className="h-[190px] overflow-hidden border-b-[1.5px] border-line">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={pj.img}
                   alt={pj.name}

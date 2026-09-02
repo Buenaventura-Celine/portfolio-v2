@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Kwentuhan from "@/components/Kwentuhan";
+import Footer from "@/components/Footer";
 import { getAllPosts } from "@/content/blog";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Projects />
         <Kwentuhan posts={posts} />
       </main>
+      <Footer />
     </>
   );
 }
