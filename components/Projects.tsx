@@ -16,7 +16,7 @@ export default function Projects() {
             href="https://github.com/Buenaventura-Celine"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-mono text-[13px] text-accent-deep border-b border-transparent hover:border-accent transition-colors duration-[220ms]"
+            className="font-mono text-[13px] text-accent-deep border-b-[1.5px] border-transparent hover:border-accent transition-colors duration-[220ms]"
           >
             want to see more? → github
           </a>
@@ -41,7 +41,7 @@ export default function Projects() {
               ].join(" ")}
             >
               {/* Image */}
-              <div className="h-[190px] overflow-hidden border-b border-line">
+              <div className="h-[190px] overflow-hidden border-b-[1.5px] border-line">
                 <img
                   src={pj.img}
                   alt={pj.name}
