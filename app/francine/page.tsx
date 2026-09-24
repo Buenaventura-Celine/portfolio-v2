@@ -73,7 +73,7 @@ export default function FrancinePage() {
       {/* Closing */}
       <section className="max-w-[680px] mx-auto">
         <p className="text-[17.5px] leading-[1.75] text-ink font-medium m-0">
-          Ayun lang, Francine. Di ako kakanan sa left. Salamat sa playlist.{" "}
+          Ayun lang, Francine. Di ako kakanan sa left. Salamat sa playlist and sa treats.{" "}
           <span className="text-accent">♥</span>
         </p>
       </section>
