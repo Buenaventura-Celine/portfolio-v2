@@ -10,8 +10,9 @@ export const metadata: Metadata = {
 /* ---------- Letter content ---------- */
 
 const part1 = [
-  "This is one of my favorite pictures of us because it reminds me of how we somehow always ended up beside each other. I don't know if it was just coincidence, but I'm really glad it happened that way. That night felt so heavy for me dahil ayan yung time na break na kami ni August, pero hindi ko pa masabi sa inyo. I was trying to run away from the crowd, pero tabi ka kasi nang tabi sa akin. I remember that night because, for a while, everything felt light again. I never thought that would just be the beginning.",
+  "This is one of my favorite pictures of us because it reminds me of how we somehow always ended up beside each other. I don't know if it was just coincidence, but I'm really glad it happened that way. That night felt so heavy for me dahil ayan yung time na break na kami ni August pero hindi ko pa masabi sa inyo. I was trying to run away from the crowd pero tabi ka kasi nang tabi sa akin. I remember that night because, for a while, everything felt light again. I never thought that would just be the beginning.",
 ];
+
 
 const part2a = [
   "Here's to our time in LU, the retreat of a lifetime. Naalala ko, nag-umpisa ito dahil gusto kitang gayahin na magsolo travel, hanggang sa naging ganito na. Thank you kasi tama ka, ang laki ng mundo, and there's really a life ahead of all of us. You were one of the people who made me look at life in a different light and see things from a different perspective. Ikaw yung nagparealize sa akin kung paano maging understanding.",
@@ -24,12 +25,12 @@ const part2b = [
 
 const part3 = [
   "So for the last picture, which happened very recently. Once again, you were there to hug me. Naiyak din talaga ako nung gabing yan. Ito yung time na sobra yung doubt ko sa sarili ko because I felt like I was being left behind. Feeling ko wala nang magandang nangyayari sa buhay ko.",
-  "Thank you for being the person I can borrow confidence from. Mabilis kasi talaga akong mag-doubt sa sarili ko, but thank you because I can openly talk about these things with you, and you never get tired of lifting me back up. Intern pa lang ako, ikaw na yung isa sa mga unang taong nakakita ng best in me. Know that you will always gonna be my OG mentor, and I think a part of who I am now started with you believing in me before I knew how to believe in myself.",
+  "Thank you for being the person I can borrow confidence from. Mabilis kasi talaga akong mag-doubt sa sarili ko, but thank you because I can openly talk about these things with you, and you never get tired of lifting me back up. Intern pa lang ako, ikaw na yung isa sa mga unang taong nakakita ng best in me. Know that you will always be my OG mentor, and I think a part of who I am now started with you seeing the potential in me while I was still figuring out what I was capable of.",
   "So I dedicate this win to you. I don't think I would have shown up the way I did if you hadn't been there to guide me and remind me that I am the best. Please always be there to watch me fail successfully. This is just one of many. I hope that I made you proud.",
 ];
 
 const closing =
-  "Sun, wag mo na ako iiwan, please, kasi parang hindi ko na kaya. Ang dull ng buhay if wala ka. But I know none of this is really within our control. What's important is that I found you, and I got to experience this life with you. Ang sarap-sarap tumawa.";
+  "Lab, wag mo na ako iiwan, please, kasi parang hindi ko na kaya. Ang dull ng buhay if wala ka. But I know none of this is really within our control. What's important is that I found you, and I got to experience this life with you. Ang sarap-sarap tumawa. At hinding hindi na ulit ako papayag maging backburner because you showed me what I deserve, thank you for treating me so well.";
 
 /* ---------- Small building blocks ---------- */
 
@@ -118,7 +119,7 @@ export default function ReinaPage() {
       <section>
         <P>{closing}</P>
         <p className="text-[17.5px] leading-[1.75] text-ink font-medium m-0">
-          Thank you, Sun. Mahal kita palagi.{" "}
+          Thank you, Sun. Please take care of your health, ayaw kita nakikita na nahihirapan. Mahal kita palagi.{" "}
           <span className="italic text-accent">*Laplap*</span>
         </p>
       </section>
